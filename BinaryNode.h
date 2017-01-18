@@ -17,7 +17,7 @@ class BinaryNode
 {
   public:
   
-  	// Default Constructor: sets left and right members to NULL
+    // Default Constructor: sets left and right members to NULL
     BinaryNode();
 
     // Nondefault Constructor: sets data to val and left/right to NULL
@@ -30,9 +30,9 @@ class BinaryNode
     ~BinaryNode();
 
     // Overloaded operator= : copies data from a BinaryNode
-	const BinaryNode& operator=(const BinaryNode<T> &rhs);
+    const BinaryNode& operator=(const BinaryNode<T> &rhs);
   
-    T data;				// Contained data
+    T data;		// Contained data
     BinaryNode* left;	// Pointer to the left subtree
     BinaryNode* right;	// Pointer to the right subtree
 };
